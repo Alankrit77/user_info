@@ -1,0 +1,81 @@
+.user-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.user-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.user-container input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}
+
+.user-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.user-container button:hover {
+  background-color: #0056b3;
+}
+
+.user-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.user-container th,
+.user-container td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.user-container th {
+  background-color: #f2f2f2;
+}
+
+.user-container th:first-child,
+.user-container td:first-child {
+  border-left: none;
+}
+
+.user-container th:last-child,
+.user-container td:last-child {
+  border-right: none;
+}
+
+.user-container h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.past-search-terms {
+  list-style-type: none;
+  padding: 0;
+}
+
+.past-search-terms li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+.btn-action {
+  height: 37px;
+  margin: 10px;
+}
